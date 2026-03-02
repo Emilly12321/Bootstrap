@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+    <link rel="stylesheet" href="   ">
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .body {
+            background-color: #F5F7FD;
+        }
+
+        .navLogo {
+            color: #648884;
+        }
+
+
+
+        .icons {
+            border: 0.1px #E2E6E7 solid;
+            background-color: #F5F7FD;
+        }
+
+        .userIcon {
+            background-color: #648884;
+        }
+
+
+
+        .forms {
+            background-image: url("assets/imgs/Frame122.svg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            border-radius: 25px;
+            min-height: 750px;
+            max-width: 1000px;
+            width: 100%;
+            padding: 40px;
+        }
+
+        .div_forms {
+            max-width: 587px;
+
+
+        }
+
+        .titulo {
+            font-size: 40px;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        .text-form {
+            letter-spacing: 2px;
+        }
+
+        .form-control {
+            min-height: 60px;
+            background-color: transparent;
+            border: 1px #FFFFFF solid;
+        }
+
+        .form-control:focus {
+            background-color: transparent !important;
+            box-shadow: none !important;
+        }
+
+        .form-label {
+            font-size: 20px;
+        }
+    </style>
+
+    <title>CatAdvice</title>
+</head>
+
+<body>
+
+    <nav class=" container ps-5 pe-5 navbar navbar-expand-sm navbar-light navLogo    ">
+
+
+        <a class="navbar-brand p-0 navLogo " href="#">
+            <i><strong class="h1">F</strong>ut</i>book
+        </a>
+
+
+        <div class="d-flex flex-row icons ms-auto rounded-4 ps-1 pe-1">
+
+            <div class=" align-self-center userIcon text-light rounded-circle ">
+                <i class=" bi bi-person fs-4 p-2 "></i>
+            </div>
+
+            <div class=" align-self-center p-1 ">
+                <span class="navbar-toggler-icon"></span>
+
+            </div>
+        </div>
+
+
+    </nav>
+
+    <section class="d-flex justify-content-center align-items-center min-vh-100">
+
+
+        <div class="forms d-flex flex-column my-auto  ">
+
+            <div class=" p-5  text-light div_forms ">
+                <div>
+
+                    <h1 class="h1 titulo">LOGIN</h1>
+                    <p class="text-form pt-4 pb-4">Organize seu jogo, convide seus amigos e reserve sua quadra sem
+                        complicação.</p>
+                </div>
+
+                <form class="pb-3  text-light" style="max-width: 500px;" action="assets/pages/dashboard.html">
+                    <fieldset>
+                        <div>
+
+                            <label for="nome" class="form-label ">Email:</label>
+                            <input type="text" class="form-control rounded-5 " name="txtnome" id="nome" required>
+
+
+                            <label for="senha" class="form-label">Senha:</label>
+                            <div class="input-group">
+                                <input type="password" class="form-control rounded-start-5 border-end-0" id="senha"
+                                    required>
+
+                                <span class="input-group-text bg-transparent border-start-0 rounded-end-5">
+                                    <i class="bi bi-eye text-light px-3 fs-4" id="toggleSenha"
+                                        style="cursor:pointer;"></i>
+                                </span>
+                            </div>
+                            <div class="d-grid pt-4">
+
+                                <button type="submit" class="btn btn-light rounded-5 h-20">Reservar</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+
+                <div class="d-flex align-items-center ">
+                    <hr class="flex-grow-1 border-light">
+
+                    <span class="px-3 text-light">OU</span>
+
+                    <hr class="flex-grow-1 border-light">
+
+                </div>
+                <p class="text-center">Ainda não possui uma conta? <a href="#">Cadastre-se</a>
+                <p>
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+
+</html>
