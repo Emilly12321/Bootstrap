@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        .table tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .cards {
+            transition: transform 0.3s;
+
+        }
+
+        .cards:hover {
+            transform: scale(1.05);
+        }
+    </style>
+
+    <title>CatAdvice</title>
+</head>
+
+<body style="background-color: #f3f3f3; ">
+
+    <nav class=" flex-column ps-5 pe-5 navbar navbar-expand-sm navbar-dark  " style="background-color: #f2a2a2;">
+
+        <div class="h1" style="color: #4b3f59 ;">
+            <h1>A HISTORIA DOS GATOS</h1>
+        </div>
+
+        <button class="navbar-toggler   " type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto pb-2" style="gap: 50px;">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="dicas.html" class="nav-link">Dicas</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="inscrever.html" class="nav-link">Inscreva-se</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <section class="d-flex justify-content-center p-5">
+
+        <div class=" d-flex flex-column " style="max-width: 950px;">
+            <div class="text-center align-self-center">
+
+                <p  style="max-width: 750px; font-size: 20px;">Sabemos que criar um animalzinho não é fácil, pensando
+                    nisso abaixo vai algumas
+                    dicas sobre como cuidar diretinho do seu gatinho</p>
+            </div>
+
+            <div class="table-responsive rounded shadow mt-5 ">
+
+                <table class="table text-center m-0 " style="border-bottom: #f6b6b6; ">
+                    <thead class="rounded">
+
+                        <tr class="col" backgroun d-color: #f6b6b6;">
+                            <th colspan="2" style=" background-color: #f6b6b6;"> DICAS </th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1°</td>
+                            <td>Mimar seu gatinho com brinquedos</td>
+
+                        </tr>
+                        <tr>
+                            <td>2°</td>
+                            <td>Respeite o espaço do seu gato</td>
+                        </tr>
+                        <tr>
+                            <td>3°</td>
+                            <td>Aprenda como e onde seu gato gosta de carinho</td>
+                        </tr>
+                        <tr>
+                            <td>4°</td>
+                            <td>Crie uma rotina com seu gato e mantenha o espaço dele limpo</td>
+                        </tr>
+                        <tr>
+                            <td>5°</td>
+                            <td>Cuide da alimentação do seu gato, verifique sempre se o que ele se alimentando é
+                                adequado e
+                                nutritivo para gatos.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <div class="container mt-5  mb-5">
+
+                <h3 class="text-center h3 mb-5">Algumas raças</h3>
+
+                <div class=" d-flex flex-wrap flex-lg-row justify-content-center align-self-center  "
+                    style="gap: 50px;">
+
+                    <div class="cards flex-column rounded ">
+                        <img src="../assets/img/sphynx.png" alt="primeiro registro" width="200px" height="140px"
+                            class="rounded align-self-sm-center shadow">
+
+                        <p class="text-center">Sphynx</p>
+
+
+                    </div>
+
+                    <div class="cards flex-column rounded ">
+                        <img src="../assets/img/siames.png" alt="primeiro registro" width="200px" height="140px"
+                            class="rounded align-self-sm-center shadow">
+
+                        <p class="text-center">Siames</p>
+
+
+                    </div>
+
+                    <div class="cards flex-column rounded ">
+                        <img src="../assets/img/persa.png" alt="primeiro registro" width="200px" height="140px"
+                            class="rounded align-self-sm-center shadow">
+
+                        <p class="text-center">Persa</p>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+    <footer class="text-center  mt-5 h-auto  " style="background-color: #f2a2a2; color: #4b3f59; min-height: 350px;">
+
+        <div>
+
+            <img src="../assets/img/CATADVICELOGOSEMFUNDO.png" alt="Logo CatAdvice" width="200" height="200">
+
+        </div>
+
+        <p>CATADVICE é um site sobre curiosidades, dicas e entretenimento sobre o mundo felino.</p>
+        <nav class=" container navbar-expand-sm  ">
+            <ul class="navbar-nav me-auto justify-content-center pb-2  flex-wrap flex-lg-row " style="gap: 25px;">
+                <li class="nav-item">
+                    <a class=" nav-link" href="index.html">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/generos.html">Dicas</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class=" nav-link" href="pages/Inscrevase.html">Inscreva-se</a>
+                </li>
+            </ul>
+
+
+        </nav>
+        <p class="m-0 p-0">&copy; 2026 CatAdvice</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
