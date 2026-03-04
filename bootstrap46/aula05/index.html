@@ -8,26 +8,35 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <title>CatAdvice</title>
+
+    <style>
+        @media (min-width: 768px) {
+            .menu {
+                gap: 50px;
+
+            }
+        }
+    </style>
+
 </head>
 
 <body style="background-color: #f3f3f3;">
 
     <nav class=" flex-column ps-5 pe-5 navbar navbar-expand-sm navbar-dark " style="background-color: #f2a2a2;">
 
-        <div class="h1" style="color: #4b3f59 ;">
-            <h1>A HISTORIA DOS GATOS</h1>
+        <div style="color: #4b3f59;">
+            <h1 class="h1 text-center">A HISTORIA DOS GATOS</h1>
         </div>
 
-        <button class="navbar-toggler   " type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon "></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto pb-2" style="gap: 50px;">
+            <ul class="navbar-nav me-auto pb-2 menu ">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Inicio</a>
+                    <a href="index.html" class="nav-link">Inicio</a>
                 </li>
 
                 <li class="nav-item">
@@ -35,7 +44,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Inscreva-se</a>
+                    <a href="pages/inscrever.html" class="nav-link">Inscreva-se</a>
                 </li>
 
             </ul>
@@ -43,13 +52,13 @@
         </div>
     </nav>
 
-    <section class="d-flex flex-column justify-content-center p-5">
+    <section class="container w-75 d-flex flex-column justify-content-center  p-5">
 
-        <div class="container">
+        <div class="container ">
 
             <h2 class="text-center h2">Como Iniciou</h2>
 
-            <div class=" d-flex flex-column flex-lg-row  gap-4  ">
+            <div class=" d-flex flex-column flex-lg-row align-items-center gap-4  ">
 
                 <div style="width: 200px;" class="align-self-sm-center">
                     <img src="assets/img/gatoCacando.png" alt="gato cacando" width="200" height="184" class="rounded">
@@ -58,7 +67,7 @@
                 <div class="align-self-center ">
 
 
-                    <p class="text justify">Uns 10 mil anos atrás, os gatos começaram a viver com os humanos, ajudando a
+                    <p class="text-justify">Uns 10 mil anos atrás, os gatos começaram a viver com os humanos, ajudando a
                         acabar com os ratos que invadiam os grãos. Nessa época, surgiram lendas dizendo que eles
                         nasceram do espírito de um leão, provavelmente porque os dois são bem parecidos, já que vêm da
                         mesma família.</p>
@@ -87,7 +96,8 @@
 
 
                 </div>
-                <div style="width: 200px;" class="align-self-sm-center ">
+
+                <div class=" d-flex flex-column align-items-center ">
                     <img src="assets/img/bastetdeusa.jpg" alt="bastet deusa" width="200" height="110" class="rounded">
                     <p class="text-muted text-center">BASTET DEUSA</p>
                 </div>

@@ -20,6 +20,14 @@
         .cards:hover {
             transform: scale(1.05);
         }
+
+        @media (min-width: 768px) {
+            .menu {
+                gap: 50px;
+
+            }
+        }
+        
     </style>
 
     <title>CatAdvice</title>
@@ -27,30 +35,30 @@
 
 <body style="background-color: #f3f3f3; ">
 
-    <nav class=" flex-column ps-5 pe-5 navbar navbar-expand-sm navbar-dark  " style="background-color: #f2a2a2;">
 
-        <div class="h1" style="color: #4b3f59 ;">
-            <h1>A HISTORIA DOS GATOS</h1>
+    <nav class=" flex-column ps-5 pe-5 navbar navbar-expand-sm navbar-dark " style="background-color: #f2a2a2;">
+
+        <div style="color: #4b3f59;">
+            <h1 class="h1 text-center">A HISTORIA DOS GATOS</h1>
         </div>
 
-        <button class="navbar-toggler   " type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon "></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto pb-2" style="gap: 50px;">
+            <ul class="navbar-nav me-auto pb-2 menu ">
                 <li class="nav-item">
-                    <a href="../index.html" class="nav-link">Inicio</a>
+                    <a href="#" class="nav-link">Inicio</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="dicas.html" class="nav-link">Dicas</a>
+                    <a href="pages/dicas.html" class="nav-link">Dicas</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="inscrever.html" class="nav-link">Inscreva-se</a>
+                    <a href="../pages/inscrever.html" class="nav-link">Inscreva-se</a>
                 </li>
 
             </ul>
@@ -58,12 +66,13 @@
         </div>
     </nav>
 
+
     <section class="d-flex justify-content-center p-5">
 
         <div class=" d-flex flex-column " style="max-width: 950px;">
             <div class="text-center align-self-center">
 
-                <p  style="max-width: 750px; font-size: 20px;">Sabemos que criar um animalzinho não é fácil, pensando
+                <p style="max-width: 750px; font-size: 20px;">Sabemos que criar um animalzinho não é fácil, pensando
                     nisso abaixo vai algumas
                     dicas sobre como cuidar diretinho do seu gatinho</p>
             </div>
