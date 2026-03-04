@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #E3E5EB;
+}
+
+.sectionConteudo {
+    margin-left: 250px;
+}
+
+.navbarFundo {
+    min-height: 100%;
+    width: 250px;
+    background-color: #314946;
+
+}
+
+.userIcon {
+    background-color: #648884;
+}
+
+.status {
+    background-color: #6EB384;
+}
+
+.divAdicionar {
+    border-top: 1px solid rgba(141, 149, 214, 0.4);
+    border-bottom: 1px solid rgba(141, 149, 214, 0.4);
+}
+
+.btn_adiconar {
+    background-color: #648884;
+
+}
+
+.btn_adiconar:hover {
+    background-color: #91b9b5;
+}

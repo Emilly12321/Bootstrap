@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
@@ -11,94 +13,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
 
-    <link rel="stylesheet" href="   ">
+    <link rel="stylesheet" href="../css/adicionar.css">
+    <link rel="stylesheet" href="../css/styles.css">
 
-
-    <style>
-        * {
-            box-sizing: border-box;
-            padding: 0;
-            margin: 0;
-        }
-
-        body {
-            background-color: #E3E5EB;
-        }
-
-        .sectionConteudo{
-             margin-left: 250px;
-        }
-
-        .navbarFundo {
-            min-height: 100%;
-            width: 250px;
-            background-color: #314946;
-
-        }
-
-        .nav-item a:active {
-            border: 1px #648B87 solid;
-        }
-
-
-
-        .userIcon {
-            background-color: #648884;
-        }
-
-        .status {
-            background-color: #6EB384;
-        }
-
-        .divAdicionar {
-            border-top: 1px solid rgba(141, 149, 214, 0.4);
-            border-bottom: 1px solid rgba(141, 149, 214, 0.4);
-        }
-
-        .btn_adiconar {
-            background-color: #648884;
-
-        }
-
-        .btn_adiconar:hover {
-            background-color: #91b9b5;
-        }
-
-        .img {
-
-            object-fit: cover;
-        }
-
-        .divImg {
-            height: 300px;
-        }
-
-        textarea {
-            resize: none;
-        }
-
-
-        /* mexendo diretamente no componente do bootstrap */
-        .btn-outline-success {
-            --bs-btn-bg: rgba(49, 73, 70, 0.5);
-            --bs-btn-border-color: rgba(49, 73, 70, 0.5);
-            --bs-btn-color: #fff;
-            --bs-btn-active-bg: #2e4f4f;
-            --bs-btn-active-color: rgba(49, 73, 70, 0.5);
-            --bs-btn-active-color: #fff;
-        }
-
-        .btn-light {
-            --bs-btn-color: #FFFFFF;
-            --bs-btn-bg: #648884;
-            --bs-btn-border-color: #2e4f4f;
-            --bs-btn-hover-color: #FFFFFF;
-            --bs-btn-hover-bg: rgba(48, 77, 73, 0.986);
-            --bs-btn-hover-border-color: #c6c7c8;
-        }
-    </style>
 
     <title>Futbook</title>
+
 </head>
 
 <body>
@@ -107,38 +27,39 @@
 
         <nav class="navbar navbar-dark navbarFundo flex-column p-3 position-fixed top-0 start-0 ">
 
-            <a class="navbar-brand mb-4" href="#">
-                <span class="fw-light fs-2 fst-italic">F</span>utBook
-            </a>
+            <!-- Transformar em dois elementos ( divs para ser manipuladas manualmente) -->
+            <div class="navbar-brand mb-4">
+                <span class="fw-light "><strong class="fs-2  fst-italic">F</strong>utBook</span>
+            </div>
 
             <input class="form-control form-control-sm mb-4" type="search" placeholder="Search...">
 
-            <ul class="navbar-nav flex-column w-100">
+            <ul class="navbar-nav flex-column w-100 ">
 
                 <li class="nav-item ">
-                    <a class="nav-link" href="dashboard.html">
-                        <i class="bi bi-speedometer2 me-2"></i>
+                    <a class="nav-link ps-1" href="dashboard.html">
+                        <span class="bi bi-speedometer2 me-2"></span>
                         Dashboard
                     </a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="bi bi-bar-chart me-2"></i>
+                <li class="nav-item ">
+                    <a class="nav-link ps-1" href="#">
+                        <span class="bi bi-bar-chart me-2"></span>
                         Relatório por Período
                     </a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="bi bi-envelope me-2"></i>
+                <li class="nav-item ">
+                    <a class="nav-link ps-1" href="#">
+                        <span class="bi bi-envelope me-2"></span>
                         Solicitações
                     </a>
                 </li>
 
-                <li class="nav-item active">
-                    <a class="nav-link" href="Quadras.html">
-                        <i class="bi bi-geo-alt me-2"></i>
+                <li class="nav-item">
+                    <a class="nav-link active ps-1" href="Quadras.html">
+                        <span class="bi bi-geo-alt me-2"></span>
                         Quadras
                     </a>
                 </li>
@@ -149,14 +70,14 @@
 
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="bi bi-gear me-2"></i>
+                        <span class="bi bi-gear me-2"></span>
                         Configuração
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link" href="../../index.html">
-                        <i class="bi bi-box-arrow-right me-2"></i>
+                        <span class="bi bi-box-arrow-right me-2"></span>
                         Sair
                     </a>
                 </li>
@@ -175,7 +96,7 @@
                     <div class="d-flex flex-row  ms-auto rounded-4 ps-1 pe-1">
 
                         <div class=" align-self-center userIcon text-light rounded-circle ">
-                            <i class=" bi bi-person fs-4 p-2 "></i>
+                            <span class=" bi bi-person fs-4 p-2 "></span>
                         </div>
                     </div>
 
@@ -186,38 +107,41 @@
 
                         <div class="row g-4">
 
-                            <div class="col-12">
-                                <div class="rounded-4 shadow-sm overflow-hidden divImg">
-                                    <img src="../imgs/Rectangle 610.svg" class="w-100 h-100" style="object-fit: cover;"
-                                        alt="">
+                            <div class="col-12 ">
+                                <div class="quadra_principal ratio ratio-1x1">
+                                    <img src="../imgs/Quadra_principal.webp"
+                                        class="img-fluid rounded-5  imgSelecionada " alt="Quadra de futebol">
                                 </div>
                             </div>
 
                             <div class="col-12 col-md-3">
-                                <div class="rounded-4 shadow-sm overflow-hidden ratio ratio-1x1">
-                                    <img src="../imgs/Rectangle 1-1.svg" class="w-100 h-100" style="object-fit: cover;"
-                                        alt="">
+                                <div class="rounded-4   ratio ratio-1x1">
+                                    <img src="../imgs/Quadra_campo_tres_jogadores.webp"
+                                        class="img-fluid rounded-5 imgSelecionada"
+                                        alt="Quadra de futebol com três jogadores">
                                 </div>
                             </div>
 
                             <div class="col-12 col-md-3">
-                                <div class="rounded-4 shadow-sm overflow-hidden ratio ratio-1x1">
-                                    <img src="../imgs/Rectangle 1-2.svg" class="w-100 h-100" style="object-fit: cover;"
-                                        alt="">
+                                <div class="atio ratio-1x1">
+                                    <img src="../imgs/Quadra_Jogador_com_bola.webp"
+                                        class="img-fluid rounded-5 imgSelecionada"
+                                        alt="Quadra de futebol com um jogador">
                                 </div>
                             </div>
 
                             <div class="col-12 col-md-3">
-                                <div class="rounded-4 shadow-sm overflow-hidden ratio ratio-1x1">
-                                    <img src="../imgs/Rectangle 1-2.svg" class="w-100 h-100" style="object-fit: cover;"
-                                        alt="">
+                                <div class="ratio ratio-1x1">
+                                    <img src="../imgs/Quadra_principal_menor.webp"
+                                        class="img-fluid rounded-4 imgSelecionada" alt="Quadra de futebol">
                                 </div>
                             </div>
 
                             <div class="col-12 col-md-3">
-                                <div class="rounded-4 shadow-sm overflow-hidden ratio ratio-1x1">
-                                    <img src="../imgs/Rectangle 1.svg" class="w-100 h-100" style="object-fit: cover;"
-                                        alt="">
+                                <div class=" ratio ratio-1x1">
+                                    <img src="../imgs/Quadra_campo_jogadores.webp"
+                                        class="img-fluid rounded-5 imgSelecionadaer"
+                                        alt="Quadra de futebol com alguns jogadores">
                                 </div>
                             </div>
 
@@ -229,40 +153,40 @@
 
                             <div class="row g-4">
 
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 col-md-6 questoesLabel">
                                     <label for="nome" class="form-label">Nome</label>
                                     <input type="text" id="nome" class="form-control rounded-4">
                                 </div>
 
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 col-md-6 questoesLabel">
                                     <label for="whatsapp" class="form-label">Whatsapp</label>
                                     <input type="text" id="whatsapp" class="form-control rounded-4">
                                 </div>
 
                             </div>
 
-                            <div class="row g-4 pt-2">
+                            <div class="row g-4 pt-2  ">
 
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 col-md-6 questoesLabel">
                                     <label for="nome" class="form-label">Enderco</label>
                                     <input type="text" id="endereco" class="form-control rounded-4">
                                 </div>
 
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 col-md-6 questoesLabel">
 
-                                    <label for="status" class="form-label">Situacao do Local</label>
+                                    <label for="status" class="form-label ">Situacao do Local</label>
 
 
                                     <div class=" container-fluid d-flex flex-lg-row flex-column">
 
-                                        <div class="pe-3">
+                                        <div class="pe-3 Opcoes_check">
 
                                             <input class="form-check-input" type="radio" id="Ativo" name="ativo">
                                             <label class="form-check-label" for="Ativo">Ativo</label>
 
                                         </div>
 
-                                        <div>
+                                        <div class="Opcoes_check">
 
                                             <input class="form-check-input" type="radio" id="Inativo" name="inativo">
                                             <label class="form-check-label" for="Inativo">Inativo</label>
@@ -271,7 +195,7 @@
                                     </div>
                                 </div>
 
-                                <div class="container-fluid mt-4">
+                                <div class="container-fluid mt-4 questoesLabel  ">
 
                                     <label for="descricao" class="form-label">Descricao do Local:</label>
                                     <textarea id="descricao" class="form-control" name="txtdescricao" rows="5"
@@ -284,7 +208,7 @@
 
                                     <h3>Disponibilidade do Local: </h3>
 
-                                    <div class="container-fluid pt-2 ">
+                                    <div class="container-fluid pt-2 questoesLabel">
 
                                         <label for="diasSemanas" class="form-label">Dias da Semana:</label>
 
@@ -326,7 +250,7 @@
 
                                     </div>
 
-                                    <div class="container-fluid pt-4">
+                                    <div class="container-fluid pt-4 questoesLabel">
 
                                         <label for="horasAtendimento" class="form-label">Horário de Atendimento:</label>
 
@@ -354,7 +278,7 @@
 
                                     </div>
 
-                                    <div class="container-fluid pt-3">
+                                    <div class="container-fluid pt-3 questoesLabel">
 
                                         <label for="diasSemanas" class="form-label">Benefício do local:</label>
 
@@ -384,8 +308,6 @@
                                             <input type="checkbox" class="btn-check" id="vestiarios" autocomplete="off">
                                             <label class="btn btn-outline-success rounded-pill flex-fill"
                                                 for="vestiarios">Vestiários</label>
-
-
 
                                         </div>
 

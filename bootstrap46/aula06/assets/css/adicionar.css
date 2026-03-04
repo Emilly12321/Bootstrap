@@ -1,0 +1,100 @@
+.sectionConteudo {
+    margin-left: 250px;
+}
+
+.navbarFundo {
+    min-height: 100%;
+    width: 250px;
+    background-color: #314946;
+
+}
+
+.nav-item a:active {
+    border: 1px #648B87 solid;
+}
+
+.questoesLabel {
+    color: #233836;
+    letter-spacing: 0.32px;
+    font-weight: 600;
+}
+
+.Opcoes_check label {
+
+    color: #233836;
+    letter-spacing: 0.32px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+.userIcon {
+    background-color: #648884;
+}
+
+.status {
+    background-color: #6EB384;
+}
+
+.divAdicionar {
+    border-top: 1px solid rgba(141, 149, 214, 0.4);
+    border-bottom: 1px solid rgba(141, 149, 214, 0.4);
+}
+
+.btn_adiconar {
+    background-color: #648884;
+
+}
+
+.btn_adiconar:hover {
+    background-color: #91b9b5;
+}
+
+.img {
+
+    object-fit: cover;
+}
+
+.divImg {
+    height: 300px;
+
+}
+
+
+.imgSelecionada {
+    object-fit: cover;
+
+}
+
+textarea {
+    resize: none;
+}
+
+
+
+/* mexendo diretamente no componente do bootstrap */
+.btn-outline-success {
+    --bs-btn-bg: rgba(49, 73, 70, 0.5);
+    --bs-btn-border-color: rgba(49, 73, 70, 0.5);
+    --bs-btn-color: #FFFFFF;
+    --bs-btn-active-bg: #2e4f4f;
+    --bs-btn-active-color: rgba(49, 73, 70, 0.5);
+    --bs-btn-active-color: #fff;
+}
+
+.btn-light {
+    --bs-btn-color: #FFFFFF;
+    --bs-btn-bg: #648884;
+    --bs-btn-border-color: #2e4f4f;
+    --bs-btn-hover-color: #FFFFFF;
+    --bs-btn-hover-bg: rgba(48, 77, 73, 0.986);
+    --bs-btn-hover-border-color: #c6c7c8;
+}
+
+@media (min-width: 768px) {
+    .quadra_principal {
+        --bs-aspect-ratio: 30%;
+
+    }
+}
