@@ -1,0 +1,61 @@
+.body {
+    background-color: #F5F7FD;
+}
+
+.navLogo {
+    color: #648884;
+}
+
+
+
+.icons {
+    border: 0.1px #E2E6E7 solid;
+    background-color: #F5F7FD;
+}
+
+.userIcon {
+    background-color: #648884;
+}
+
+.form {
+    max-width: 500px;
+
+}
+
+.forms {
+    background-image: url("assets/imgs/fundo_login.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    max-width: 700px;
+}
+
+.div_forms {
+    max-width: 587px;
+
+
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.text-form {
+    letter-spacing: 2px;
+}
+
+.camposForm input {
+    background-color: transparent !important;
+    border: 1px #FFFFFF solid !important;
+    color: #FFFFFF !important;
+}
+
+.camposForm input:focus {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.camposForm label {
+    font-size: 16px !important;
+}

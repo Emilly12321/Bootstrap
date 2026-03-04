@@ -27,10 +27,10 @@
 
         <nav class="navbar navbar-dark navbarFundo flex-column p-3 position-fixed top-0 start-0 ">
 
-            <!-- Transformar em dois elementos ( divs para ser manipuladas manualmente) -->
-            <div class="navbar-brand mb-4">
-                <span class="fw-light "><strong class="fs-2  fst-italic">F</strong>utBook</span>
-            </div>
+            <a class="navbar-brand mb-4" href="#">
+                <span class="fw-light fs-2 fst-italic">F</span>
+                <span>utBook</span>
+            </a>
 
             <input class="form-control form-control-sm mb-4" type="search" placeholder="Search...">
 
@@ -38,28 +38,28 @@
 
                 <li class="nav-item ">
                     <a class="nav-link ps-1" href="dashboard.html">
-                        <span class="bi bi-speedometer2 me-2"></span>
+                        <span class="bi bi-bar-chart me-2"></span>
                         Dashboard
                     </a>
                 </li>
 
                 <li class="nav-item ">
                     <a class="nav-link ps-1" href="#">
-                        <span class="bi bi-bar-chart me-2"></span>
+                        <span class="bi bi-calendar4 me-2"></span>
                         Relatório por Período
                     </a>
                 </li>
 
                 <li class="nav-item ">
                     <a class="nav-link ps-1" href="#">
-                        <span class="bi bi-envelope me-2"></span>
+                        <span class="bi bi-clipboard-check me-2"></span>
                         Solicitações
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link active ps-1" href="Quadras.html">
-                        <span class="bi bi-geo-alt me-2"></span>
+                        <span class="bi bi-aspect-ratio me-2"></span>
                         Quadras
                     </a>
                 </li>
@@ -88,7 +88,7 @@
 
         <section class="flex-fill p-4 sectionConteudo">
 
-            <main class="d-flex ms-auto gap-2 p-4">
+            <div class="d-flex ms-auto textSection gap-2 p-4">
                 <h2>Servicos</h2>
 
                 <div class="d-flex flex-row ms-auto rounded-4 ps-1 pe-1">
@@ -99,8 +99,9 @@
                             <span class=" bi bi-person fs-4 p-2 "></span>
                         </div>
                     </div>
+                </div>
+            </div>
 
-            </main>
             <div class="container mt-5 mb-5">
                 <form action="../pages/Quadras.html" class="d-flex flex-column">
                     <fieldset>
@@ -109,38 +110,35 @@
 
                             <div class="col-12 ">
                                 <div class="quadra_principal ratio ratio-1x1">
-                                    <img src="../imgs/Quadra_principal.webp"
-                                        class="img-fluid rounded-5  imgSelecionada " alt="Quadra de futebol">
+                                    <img src="../imgs/Quadra_principal.webp" class=" rounded-4  object-fit-cover "
+                                        alt="Quadra de futebol">
                                 </div>
                             </div>
 
                             <div class="col-12 col-md-3">
-                                <div class="rounded-4   ratio ratio-1x1">
-                                    <img src="../imgs/Quadra_campo_tres_jogadores.webp"
-                                        class="img-fluid rounded-5 imgSelecionada"
-                                        alt="Quadra de futebol com três jogadores">
+                                <div class="rounded-4  ratio ratio-1x1">
+                                    <img src="../imgs/futebol_1.webp"
+                                        class=" rounded-4 object-fit-cover" alt="Quadra de futebol com três jogadores">
                                 </div>
                             </div>
 
                             <div class="col-12 col-md-3">
-                                <div class="atio ratio-1x1">
-                                    <img src="../imgs/Quadra_Jogador_com_bola.webp"
-                                        class="img-fluid rounded-5 imgSelecionada"
+                                <div class="ratio ratio-1x1">
+                                    <img src="../imgs/futebol_1.webp" class=" rounded-4 object-fit-cover"
                                         alt="Quadra de futebol com um jogador">
                                 </div>
                             </div>
 
                             <div class="col-12 col-md-3">
                                 <div class="ratio ratio-1x1">
-                                    <img src="../imgs/Quadra_principal_menor.webp"
-                                        class="img-fluid rounded-4 imgSelecionada" alt="Quadra de futebol">
+                                    <img src="../imgs/futebol_1.webp" class=" rounded-4 object-fit-cover"
+                                        alt="Quadra de futebol">
                                 </div>
                             </div>
 
                             <div class="col-12 col-md-3">
                                 <div class=" ratio ratio-1x1">
-                                    <img src="../imgs/Quadra_campo_jogadores.webp"
-                                        class="img-fluid rounded-5 imgSelecionadaer"
+                                    <img src="../imgs/futebol_1.webp" class=" rounded-5 object-fit-cover"
                                         alt="Quadra de futebol com alguns jogadores">
                                 </div>
                             </div>
@@ -149,7 +147,7 @@
 
                         <div class="mt-5">
 
-                            <h3 class="">INFORMACOES SOBRE O LOCAL</h3>
+                            <h3 class="tituloLabel">INFORMACOES SOBRE O LOCAL</h3>
 
                             <div class="row g-4">
 
@@ -177,19 +175,19 @@
                                     <label for="status" class="form-label ">Situacao do Local</label>
 
 
-                                    <div class=" container-fluid d-flex flex-lg-row flex-column">
+                                    <div class=" container-fluid d-flex flex-lg-row flex-column ">
 
-                                        <div class="pe-3 Opcoes_check">
+                                        <div class="form-check pe-3 Opcoes_check">
 
-                                            <input class="form-check-input" type="radio" id="Ativo" name="ativo">
-                                            <label class="form-check-label" for="Ativo">Ativo</label>
+                                            <input class="form-check-input" type="radio" id="ativo" name="status">
+                                            <label class="form-check-label" for="ativo">Ativo</label>
 
                                         </div>
 
-                                        <div class="Opcoes_check">
+                                        <div class="form-check Opcoes_check">
 
-                                            <input class="form-check-input" type="radio" id="Inativo" name="inativo">
-                                            <label class="form-check-label" for="Inativo">Inativo</label>
+                                            <input class="form-check-input" type="radio" id="inativo" name="status">
+                                            <label class="form-check-label" for="inativo">Inativo</label>
 
                                         </div>
                                     </div>
@@ -198,8 +196,8 @@
                                 <div class="container-fluid mt-4 questoesLabel  ">
 
                                     <label for="descricao" class="form-label">Descricao do Local:</label>
-                                    <textarea id="descricao" class="form-control" name="txtdescricao" rows="5"
-                                        required></textarea>
+                                    <textarea id="descricao" class="form-control" name="txtdescricao"
+                                        rows="5"></textarea>
 
                                 </div>
 

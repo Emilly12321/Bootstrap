@@ -13,6 +13,18 @@
     border: 1px #648B87 solid;
 }
 
+.textSection {
+
+    color: #223532e8;
+    text-transform: capitalize;
+}
+
+
+.tituloLabel {
+    color: #3B3D53;
+    letter-spacing: 0.96px;
+}
+
 .questoesLabel {
     color: #233836;
     letter-spacing: 0.32px;
