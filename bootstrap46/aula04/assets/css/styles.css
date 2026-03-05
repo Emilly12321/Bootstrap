@@ -242,7 +242,6 @@ nav .nav-link {
 .container_contacts {
     background-color: rgba(51, 11, 42, 0.5);
     max-width: 600px;
-    margin: 0 auto;
     border-radius: 15px;
 }
 
@@ -365,13 +364,11 @@ nav .nav-link {
     box-shadow: 0 0 8px #ffc0cb, 0 0 12px #d8b4f8, 0 0 16px #b0e0ff;
 }
 
-/* Firefox */
 body {
     scrollbar-color: #ff99cc #ffe6f0;
     scrollbar-width: thin;
 }
 
-/* Responsividade adicional */
 @media (max-width: 768px) {
     .div_section {
         padding: 1.5rem;
