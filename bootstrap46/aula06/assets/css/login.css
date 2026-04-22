@@ -23,7 +23,7 @@
 }
 
 .forms {
-    background-image: url("assets/imgs/fundo_login.webp");
+    background-image: url("../imgs/fundo_login.webp");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 25px;
